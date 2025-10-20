@@ -32,6 +32,8 @@ namespace odd_median
             int v2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(median(v1, v2));
             Console.WriteLine("SDIYBT");
+
+
         }
     }
 }
