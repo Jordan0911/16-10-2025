@@ -11,7 +11,7 @@ namespace odd_median
                 {
                     switcher = n2;
                     n2 = n1;
-                    n1 = switcher;  
+                    n1 = switcher;
                 }
                     for(int i = n1-1; i <= n2; i++)
                     {
@@ -31,6 +31,7 @@ namespace odd_median
             int v1 = Convert.ToInt32(Console.ReadLine());
             int v2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(median(v1, v2));
+            Console.WriteLine("SDIYBT");
         }
     }
 }
